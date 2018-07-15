@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1522853148">
+  <File Type="VDS-TIMING-PB" Name="controller_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="controller_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="controller.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="controller_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="controller_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="controller_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="controller.vds"/>
+  <File Type="REPORTS-TCL" Name="controller_reports.tcl"/>
+  <File Type="PA-TCL" Name="controller.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/traceram/traceram.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/L2_mru/L2_mru.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/L2_lru/L2_lru.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/L2_block/L2_block.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/L1_mru/L1_mru.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/L1_lru/L1_lru.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/L1_block/L1_block.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UART_Tx.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/L1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/L1_block_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/L1_block/hdl/L1_block_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1522585704"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/L1_lru_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/L1_lru/hdl/L1_lru_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1522585715"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/L1_mru_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/L1_mru/hdl/L1_mru_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1522585725"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/L2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/L2_block_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/L2_block/hdl/L2_block_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1522597759"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/L2_lru_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/L2_lru/hdl/L2_lru_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1522596330"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/L2_mru_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/L2_mru/hdl/L2_mru_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1522596352"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/traceram_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/bd/traceram/hdl/traceram_wrapper.vhd"/>
+        <Attr Name="ImportTime" Val="1522599972"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Controller.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/controller_lutram.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seq_controller.vhd">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="controller"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/basys.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="L2_block_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="L2_lru_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="traceram_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="L2_mru_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="L1_block_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="L1_lru_blk_mem_gen_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="L1_mru_blk_mem_gen_0_0"/>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Apr  4 12:47:43 2018
+# Process ID: 3494
+# Current directory: /home/nk7/Lab6_BRAM2new/Lab6_BRAM2.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/nk7/Lab6_BRAM2new/Lab6_BRAM2.sim/sim_1/behav/xsim/xsim.dir/combined_sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/nk7/Lab6_BRAM2new/Lab6_BRAM2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/nk7/Lab6_BRAM2new/Lab6_BRAM2.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/nk7/Lab6_BRAM2new/Lab6_BRAM2.sim/sim_1/behav/xsim/xsim.dir/combined_sim_behav/webtalk/xsim_webtalk.tcl -notrace

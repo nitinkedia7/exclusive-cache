@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="L1_mru_blk_mem_gen_0_0_synth_1" LaunchDir="/home/nk7/Lab6_BRAM2/Lab6_BRAM2.runs/L1_mru_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="L1_lru_blk_mem_gen_0_0_synth_1" LaunchDir="/home/nk7/Lab6_BRAM2/Lab6_BRAM2.runs/L1_lru_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="L1_block_blk_mem_gen_0_0_synth_1" LaunchDir="/home/nk7/Lab6_BRAM2/Lab6_BRAM2.runs/L1_block_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="L1_lru_blk_mem_gen_0_0_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="/home/nk7/Lab6_BRAM2/Lab6_BRAM2.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="L1_mru_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="L1_lru_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="L1_block_blk_mem_gen_0_0_synth_1"/>
+	</Run>
+</Runs>
+

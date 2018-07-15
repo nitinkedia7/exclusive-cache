@@ -1,0 +1,96 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.4/bin/unwrapped/lnx64.o/xelab -wto 30545749c6c448f5835a13cb2e17de83 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip -L xpm --snapshot combined_sim_behav xil_defaultlib.combined_sim -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(doa_reg=1,dob_reg=1,re...]
+Compiling architecture structure of entity xil_defaultlib.L1_block_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper [l1_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L1_block_blk_mem_gen_0_0_blk_mem_gen_prim_width [l1_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L1_block_blk_mem_gen_0_0_blk_mem_gen_generic_cstr [l1_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L1_block_blk_mem_gen_0_0_blk_mem_gen_top [l1_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L1_block_blk_mem_gen_0_0_blk_mem_gen_v8_4_1_synth [l1_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L1_block_blk_mem_gen_0_0_blk_mem_gen_v8_4_1 [l1_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L1_block_blk_mem_gen_0_0 [l1_block_blk_mem_gen_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.L1_block [l1_block_default]
+Compiling architecture structure of entity xil_defaultlib.L1_block_wrapper [l1_block_wrapper_default]
+Compiling architecture structure of entity xil_defaultlib.L1_lru_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper [l1_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_lru_blk_mem_gen_0_0_blk_mem_gen_prim_width [l1_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_lru_blk_mem_gen_0_0_blk_mem_gen_generic_cstr [l1_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_lru_blk_mem_gen_0_0_blk_mem_gen_top [l1_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_lru_blk_mem_gen_0_0_blk_mem_gen_v8_4_1_synth [l1_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_lru_blk_mem_gen_0_0_blk_mem_gen_v8_4_1 [l1_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_lru_blk_mem_gen_0_0 [l1_lru_blk_mem_gen_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.L1_lru [l1_lru_default]
+Compiling architecture structure of entity xil_defaultlib.L1_lru_wrapper [l1_lru_wrapper_default]
+Compiling architecture structure of entity xil_defaultlib.L1_mru_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper [l1_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_mru_blk_mem_gen_0_0_blk_mem_gen_prim_width [l1_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_mru_blk_mem_gen_0_0_blk_mem_gen_generic_cstr [l1_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_mru_blk_mem_gen_0_0_blk_mem_gen_top [l1_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_mru_blk_mem_gen_0_0_blk_mem_gen_v8_4_1_synth [l1_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_mru_blk_mem_gen_0_0_blk_mem_gen_v8_4_1 [l1_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L1_mru_blk_mem_gen_0_0 [l1_mru_blk_mem_gen_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.L1_mru [l1_mru_default]
+Compiling architecture structure of entity xil_defaultlib.L1_mru_wrapper [l1_mru_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.L1 [l1_default]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,re...]
+Compiling architecture structure of entity xil_defaultlib.L2_block_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper [l2_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L2_block_blk_mem_gen_0_0_blk_mem_gen_prim_width [l2_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L2_block_blk_mem_gen_0_0_blk_mem_gen_generic_cstr [l2_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L2_block_blk_mem_gen_0_0_blk_mem_gen_top [l2_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L2_block_blk_mem_gen_0_0_blk_mem_gen_v8_4_1_synth [l2_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L2_block_blk_mem_gen_0_0_blk_mem_gen_v8_4_1 [l2_block_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.L2_block_blk_mem_gen_0_0 [l2_block_blk_mem_gen_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.L2_block [l2_block_default]
+Compiling architecture structure of entity xil_defaultlib.L2_block_wrapper [l2_block_wrapper_default]
+Compiling architecture structure of entity xil_defaultlib.L2_lru_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper [l2_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_lru_blk_mem_gen_0_0_blk_mem_gen_prim_width [l2_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_lru_blk_mem_gen_0_0_blk_mem_gen_generic_cstr [l2_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_lru_blk_mem_gen_0_0_blk_mem_gen_top [l2_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_lru_blk_mem_gen_0_0_blk_mem_gen_v8_4_1_synth [l2_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_lru_blk_mem_gen_0_0_blk_mem_gen_v8_4_1 [l2_lru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_lru_blk_mem_gen_0_0 [l2_lru_blk_mem_gen_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.L2_lru [l2_lru_default]
+Compiling architecture structure of entity xil_defaultlib.L2_lru_wrapper [l2_lru_wrapper_default]
+Compiling architecture structure of entity xil_defaultlib.L2_mru_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper [l2_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_mru_blk_mem_gen_0_0_blk_mem_gen_prim_width [l2_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_mru_blk_mem_gen_0_0_blk_mem_gen_generic_cstr [l2_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_mru_blk_mem_gen_0_0_blk_mem_gen_top [l2_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_mru_blk_mem_gen_0_0_blk_mem_gen_v8_4_1_synth [l2_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_mru_blk_mem_gen_0_0_blk_mem_gen_v8_4_1 [l2_mru_blk_mem_gen_0_0_blk_mem_g...]
+Compiling architecture structure of entity xil_defaultlib.L2_mru_blk_mem_gen_0_0 [l2_mru_blk_mem_gen_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.L2_mru [l2_mru_default]
+Compiling architecture structure of entity xil_defaultlib.L2_mru_wrapper [l2_mru_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.L2 [l2_default]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(doa_reg=1,rdaddr_colli...]
+Compiling architecture structure of entity xil_defaultlib.traceram_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper [traceram_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.traceram_blk_mem_gen_0_0_blk_mem_gen_prim_width [traceram_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.traceram_blk_mem_gen_0_0_blk_mem_gen_generic_cstr [traceram_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.traceram_blk_mem_gen_0_0_blk_mem_gen_top [traceram_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.traceram_blk_mem_gen_0_0_blk_mem_gen_v8_4_1_synth [traceram_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.traceram_blk_mem_gen_0_0_blk_mem_gen_v8_4_1 [traceram_blk_mem_gen_0_0_blk_mem...]
+Compiling architecture structure of entity xil_defaultlib.traceram_blk_mem_gen_0_0 [traceram_blk_mem_gen_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.traceram [traceram_default]
+Compiling architecture structure of entity xil_defaultlib.traceram_wrapper [traceram_wrapper_default]
+Compiling architecture rtl of entity xil_defaultlib.controller [controller_default]
+Compiling architecture tb of entity xil_defaultlib.combined_sim
+Built simulation snapshot combined_sim_behav
